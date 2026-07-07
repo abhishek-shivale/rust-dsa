@@ -50,6 +50,11 @@ LRU Cache, Min Stack, Twitter, etc.) are a `struct` + `impl` instead —
 same idea, `todo!()` in each method body, tests call the methods in
 sequence.
 
+## Tracking progress
+
+`WORKSHEET.md` has one row per exercise (Done / Date / Remarks). Mark it up
+as you go.
+
 ## Adding more exercises
 
 1. Pick the next free number and difficulty tier.
