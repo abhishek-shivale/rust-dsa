@@ -6,9 +6,9 @@ whatever's worth remembering (approach used, gotcha, time complexity,
 
 ## Low (n001-n035)
 
-| #    | Problem                                | Done | Date | Remarks |
-|------|-----------------------------------------|------|------|---------|
-| n001 | Two Sum                                 |      |      |         |
+| #    | Problem                                 | Done | Date     | Remarks |
+|------|-----------------------------------------|------|----------|---------|
+| n001 | Two Sum                                 |Done  |22-07-2027| Damn, Hashmap is creazy (seen method for double array)|
 | n002 | Contains Duplicate                      |      |      |         |
 | n003 | Valid Anagram                           |      |      |         |
 | n004 | Valid Palindrome                        |      |      |         |
