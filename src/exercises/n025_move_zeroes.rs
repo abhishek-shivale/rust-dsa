@@ -4,7 +4,6 @@
 //! of the non-zero elements. Return the mutated vec for easy testing.
 
 pub fn move_zeroes(mut nums: Vec<i32>) -> Vec<i32> {
-    let _ = &mut nums;
     todo!()
 }
 

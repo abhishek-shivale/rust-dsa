@@ -7,7 +7,6 @@
 use crate::common::TreeLink;
 
 pub fn flatten(root: TreeLink) {
-    let _ = root;
     todo!()
 }
 
