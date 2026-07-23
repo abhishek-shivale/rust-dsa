@@ -18,7 +18,7 @@ whatever's worth remembering (approach used, gotcha, time complexity,
 | n008 | Merge Two Sorted Lists                  |      |      |         |
 | n009 | Linked List Cycle                       |      |      |         |
 | n010 | Invert Binary Tree                      |      |      |         |
-| n011 | Maximum Depth of Binary Tree             |      |      |         |
+| n011 | Maximum Depth of Binary Tree            |      |      |         |
 | n012 | Same Tree                               |      |      |         |
 | n013 | Subtree of Another Tree                 |      |      |         |
 | n014 | Diameter of Binary Tree                 |      |      |         |
