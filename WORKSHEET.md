@@ -8,8 +8,8 @@ whatever's worth remembering (approach used, gotcha, time complexity,
 
 | #    | Problem                                 | Done | Date     | Remarks |
 |------|-----------------------------------------|------|----------|---------|
-| n001 | Two Sum                                 |Done  |22-07-2027| Damn, Hashmap is creazy (seen method for double array)|
-| n002 | Contains Duplicate                      |Done  |23-07-2027| Well used yesterday statergy         |
+| n001 | Two Sum                                 |Done  |22-07-2026| Damn, Hashmap is creazy (seen method for double array)|
+| n002 | Contains Duplicate                      |Done  |23-07-2026| Well used yesterday statergy         |
 | n003 | Valid Anagram                           |      |      |         |
 | n004 | Valid Palindrome                        |      |      |         |
 | n005 | Best Time to Buy and Sell Stock         |      |      |         |
