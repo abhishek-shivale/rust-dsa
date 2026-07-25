@@ -10,8 +10,8 @@ whatever's worth remembering (approach used, gotcha, time complexity,
 |------|-----------------------------------------|------|----------|---------|
 | n001 | Two Sum                                 |Done  |22-07-2026| Damn, Hashmap is creazy (seen method for double array)|
 | n002 | Contains Duplicate                      |Done  |23-07-2026| Well used yesterday statergy         |
-| n003 | Valid Anagram                           |      |      |         |
-| n004 | Valid Palindrome                        |      |      |         |
+| n003 | Valid Anagram                           |Done  |24-07-2026| Kinda easy but short way is cool         |
+| n004 | Valid Palindrome                        |Done  |25-07-2026| easy all ways        |
 | n005 | Best Time to Buy and Sell Stock         |      |      |         |
 | n006 | Valid Parentheses                       |      |      |         |
 | n007 | Reverse Linked List                     |      |      |         |

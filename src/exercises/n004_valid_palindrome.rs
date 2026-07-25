@@ -3,8 +3,19 @@
 //! Lowercase `s`, strip non-alphanumerics, return whether it reads the same
 //! forwards and backwards.
 
+use std::collections::HashMap;
+
 pub fn is_palindrome(s: String) -> bool {
-    todo!()
+    let palindrome: Vec<char> = s.to_lowercase().chars().filter(|a| a.is_alphanumeric()).collect();
+
+    for i in 0..(palindrome.len() / 2) {
+        if palindrome[i] == palindrome[palindrome.len() - 1 - i] {
+            continue;
+        } else {
+            return false;
+        }
+    }
+    return true;
 }
 
 #[cfg(test)]
