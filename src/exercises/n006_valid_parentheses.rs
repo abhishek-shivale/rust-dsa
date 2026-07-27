@@ -4,7 +4,19 @@
 //! the correct order.
 
 pub fn is_valid(s: String) -> bool {
-    todo!()
+    let mut stack = Vec::new();
+
+    for bracket in s.chars() {
+        match bracket {
+            '(' | '[' | '{' => stack.push(bracket),
+            ')' if stack.pop() == Some('(') => {}
+            ']' if stack.pop() == Some('[') => {}
+            '}' if stack.pop() == Some('{') => {}
+            _ => return false,
+        }
+    }
+
+    stack.is_empty()
 }
 
 #[cfg(test)]
@@ -19,5 +31,8 @@ mod tests {
     #[test]
     fn invalid() {
         assert!(!is_valid("(]".to_string()));
+        assert!(!is_valid("]".to_string()));
+        assert!(!is_valid("([)]".to_string()));
+        assert!(!is_valid("(".to_string()));
     }
 }
