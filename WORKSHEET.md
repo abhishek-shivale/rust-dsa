@@ -13,8 +13,8 @@ whatever's worth remembering (approach used, gotcha, time complexity,
 | n003 | Valid Anagram                           |Done  |24-07-2026| Kinda easy but short way is cool         |
 | n004 | Valid Palindrome                        |Done  |25-07-2026| easy all ways        |
 | n005 | Best Time to Buy and Sell Stock         |Done  |26-07-2026|well its was tricky question         |
-| n006 | Valid Parentheses                       |      |      |         |
-| n007 | Reverse Linked List                     |      |      |         |
+| n006 | Valid Parentheses                       |Done  |27-07-2026|got tricked by question        |
+| n007 | Reverse Linked List                     |Done  |28-07-2026|easy pizy         |
 | n008 | Merge Two Sorted Lists                  |      |      |         |
 | n009 | Linked List Cycle                       |      |      |         |
 | n010 | Invert Binary Tree                      |      |      |         |
