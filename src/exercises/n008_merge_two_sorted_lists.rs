@@ -5,10 +5,31 @@
 use crate::common::ListNode;
 
 pub fn merge_two_lists(
-    list1: Option<Box<ListNode>>,
-    list2: Option<Box<ListNode>>,
+    mut list1: Option<Box<ListNode>>,
+    mut list2: Option<Box<ListNode>>,
 ) -> Option<Box<ListNode>> {
-    todo!()
+    let mut new_vec = Vec::new();
+
+    while let Some(val) = list1 {
+        new_vec.push(val.val);
+        list1 = val.next;
+    }
+
+    while let Some(val) = list2 {
+        new_vec.push(val.val);
+        list2 = val.next;
+    }
+
+    let mut current: Option<Box<ListNode>> = None;
+    new_vec.sort_by(|a, b| b.cmp(a));
+    for i in new_vec.iter() {
+        let new_node = ListNode {
+            next: current,
+            val: i.clone(),
+        };
+        current = Some(Box::new(new_node));
+    }
+    current
 }
 
 #[cfg(test)]
@@ -27,6 +48,9 @@ mod tests {
 
     #[test]
     fn both_empty() {
-        assert_eq!(ListNode::to_vec(merge_two_lists(None, None)), Vec::<i32>::new());
+        assert_eq!(
+            ListNode::to_vec(merge_two_lists(None, None)),
+            Vec::<i32>::new()
+        );
     }
 }
