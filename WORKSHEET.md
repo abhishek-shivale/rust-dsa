@@ -16,7 +16,7 @@ whatever's worth remembering (approach used, gotcha, time complexity,
 | n006 | Valid Parentheses                       |Done  |27-07-2026|got tricked by question        |
 | n007 | Reverse Linked List                     |Done  |28-07-2026|easy pizy         |
 | n008 | Merge Two Sorted Lists                  |Done  |29-07-2026|all good          |
-| n009 | Linked List Cycle                       |      |      |         |
+| n009 | Linked List Cycle                       |DONE  |30-07-2026|time waste        |
 | n010 | Invert Binary Tree                      |      |      |         |
 | n011 | Maximum Depth of Binary Tree            |      |      |         |
 | n012 | Same Tree                               |      |      |         |

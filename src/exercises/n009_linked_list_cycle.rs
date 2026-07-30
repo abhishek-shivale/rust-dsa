@@ -5,8 +5,12 @@
 
 use crate::common::ListNode;
 
-pub fn has_cycle(head: Option<Box<ListNode>>) -> bool {
-    todo!()
+pub fn has_cycle(mut head: Option<Box<ListNode>>) -> bool {
+    while let Some(val) = head {
+       head = val.next;
+    };
+
+    false
 }
 
 #[cfg(test)]
