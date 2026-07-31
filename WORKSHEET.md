@@ -17,7 +17,7 @@ whatever's worth remembering (approach used, gotcha, time complexity,
 | n007 | Reverse Linked List                     |Done  |28-07-2026|easy pizy         |
 | n008 | Merge Two Sorted Lists                  |Done  |29-07-2026|all good          |
 | n009 | Linked List Cycle                       |DONE  |30-07-2026|time waste        |
-| n010 | Invert Binary Tree                      |      |      |         |
+| n010 | Invert Binary Tree                      |Done  |31-07-2026|intresting question need quite time to understand how to solve its (learned theory )       |
 | n011 | Maximum Depth of Binary Tree            |      |      |         |
 | n012 | Same Tree                               |      |      |         |
 | n013 | Subtree of Another Tree                 |      |      |         |
