@@ -2,8 +2,6 @@
 //!
 //! Invert a binary tree (swap left/right at every node) and return the root.
 
-use std::rc::Rc;
-
 use crate::common::TreeLink;
 
 pub fn invert_tree(root: TreeLink) -> TreeLink {
