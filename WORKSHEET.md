@@ -19,8 +19,8 @@ whatever's worth remembering (approach used, gotcha, time complexity,
 | n009 | Linked List Cycle                       |DONE  |30-07-2026|time waste        |
 | n010 | Invert Binary Tree                      |Done  |31-07-2026|intresting question need quite time to understand how to solve its (learned theory )       |
 | n011 | Maximum Depth of Binary Tree            |Done  |01-08-2026|tricky not that hard but need to check hint|
-| n012 | Same Tree                               |      |      |         |
-| n013 | Subtree of Another Tree                 |      |      |         |
+| n012 | Same Tree                               |Done  |02-08-2026|easy         |
+| n013 | Subtree of Another Tree                 |Done  |03-08-2026|too easy |
 | n014 | Diameter of Binary Tree                 |      |      |         |
 | n015 | Balanced Binary Tree                    |      |      |         |
 | n016 | Symmetric Tree                          |      |      |         |
