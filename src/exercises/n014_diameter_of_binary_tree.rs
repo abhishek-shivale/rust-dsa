@@ -5,8 +5,55 @@
 
 use crate::common::TreeLink;
 
+use std::{collections::HashMap, rc::Rc};
+
 pub fn diameter_of_binary_tree(root: TreeLink) -> i32 {
-    todo!()
+    let Some(root) = root else {
+        return 0;
+    };
+
+    let mut stack = vec![(root, false)];
+    let mut heights = HashMap::new();
+    let mut diameter = 0;
+
+    while let Some((node, visited)) = stack.pop() {
+        if !visited {
+            stack.push((Rc::clone(&node), true));
+
+            let node_ref = node.borrow();
+
+            if let Some(right) = node_ref.right.clone() {
+                stack.push((right, false));
+            }
+
+            if let Some(left) = node_ref.left.clone() {
+                stack.push((left, false));
+            }
+        } else {
+            let node_ref = node.borrow();
+
+            let left_height = node_ref
+                .left
+                .as_ref()
+                .and_then(|child| heights.get(&Rc::as_ptr(child)))
+                .copied()
+                .unwrap_or(0);
+
+            let right_height = node_ref
+                .right
+                .as_ref()
+                .and_then(|child| heights.get(&Rc::as_ptr(child)))
+                .copied()
+                .unwrap_or(0);
+
+            diameter = diameter.max(left_height + right_height);
+
+            let height = 1 + left_height.max(right_height);
+            heights.insert(Rc::as_ptr(&node), height);
+        }
+    }
+
+    diameter
 }
 
 #[cfg(test)]

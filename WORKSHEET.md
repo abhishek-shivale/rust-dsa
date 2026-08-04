@@ -21,7 +21,7 @@ whatever's worth remembering (approach used, gotcha, time complexity,
 | n011 | Maximum Depth of Binary Tree            |Done  |01-08-2026|tricky not that hard but need to check hint|
 | n012 | Same Tree                               |Done  |02-08-2026|easy         |
 | n013 | Subtree of Another Tree                 |Done  |03-08-2026|too easy |
-| n014 | Diameter of Binary Tree                 |      |      |         |
+| n014 | Diameter of Binary Tree                 |INcomplete|04-08-2026|damn i could not able to find correct soultion         |
 | n015 | Balanced Binary Tree                    |      |      |         |
 | n016 | Symmetric Tree                          |      |      |         |
 | n017 | Path Sum                                |      |      |         |
