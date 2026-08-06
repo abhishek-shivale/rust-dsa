@@ -22,8 +22,8 @@ whatever's worth remembering (approach used, gotcha, time complexity,
 | n012 | Same Tree                               |Done  |02-08-2026|easy         |
 | n013 | Subtree of Another Tree                 |Done  |03-08-2026|too easy |
 | n014 | Diameter of Binary Tree                 |Done  |04-08-2026|damn i could not able to find correct soultion         |
-| n015 | Balanced Binary Tree                    |      |      |         |
-| n016 | Symmetric Tree                          |      |      |         |
+| n015 | Balanced Binary Tree                    |Done  |05-08-2026|hmm         |
+| n016 | Symmetric Tree                          |Done  |06-08-2026|h,,         |
 | n017 | Path Sum                                |      |      |         |
 | n018 | Number of 1 Bits                        |      |      |         |
 | n019 | Counting Bits                           |      |      |         |

@@ -4,9 +4,34 @@
 
 use crate::common::TreeLink;
 
-pub fn is_symmetric(root: TreeLink) -> bool {
-    todo!()
+fn symmetric(node: &TreeLink) -> bool {
+    fn mirrors(left: &TreeLink, right: &TreeLink) -> bool {
+        match (left, right) {
+            (None, None) => true,
+            (Some(_), None) | (None, Some(_)) => false,
+            (Some(left), Some(right)) => {
+                let left = left.borrow();
+                let right = right.borrow();
+
+                left.val == right.val
+                    && mirrors(&left.left, &right.right)
+                    && mirrors(&left.right, &right.left)
+            }
+        }
+    }
+
+    let Some(node) = node else {
+        return true;
+    };
+
+    let node = node.borrow();
+    mirrors(&node.left, &node.right)
 }
+
+pub fn is_symmetric(root: TreeLink) -> bool {
+    symmetric(&root)
+}
+
 
 #[cfg(test)]
 mod tests {
@@ -21,7 +46,8 @@ mod tests {
 
     #[test]
     fn not_symmetric() {
-        let root = TreeNode::from_level_order(&[Some(1), Some(2), Some(2), None, Some(3), None, Some(3)]);
+        let root =
+            TreeNode::from_level_order(&[Some(1), Some(2), Some(2), None, Some(3), None, Some(3)]);
         assert!(!is_symmetric(root));
     }
 }
