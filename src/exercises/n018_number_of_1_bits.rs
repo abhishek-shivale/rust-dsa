@@ -4,7 +4,7 @@
 //! representation of `n`.
 
 pub fn hamming_weight(n: u32) -> i32 {
-    todo!()
+        n.count_ones() as i32
 }
 
 #[cfg(test)]
