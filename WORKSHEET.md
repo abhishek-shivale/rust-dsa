@@ -24,8 +24,8 @@ whatever's worth remembering (approach used, gotcha, time complexity,
 | n014 | Diameter of Binary Tree                 |Done  |04-08-2026|damn i could not able to find correct soultion         |
 | n015 | Balanced Binary Tree                    |Done  |05-08-2026|hmm         |
 | n016 | Symmetric Tree                          |Done  |06-08-2026|h,,         |
-| n017 | Path Sum                                |      |      |         |
-| n018 | Number of 1 Bits                        |      |      |         |
+| n017 | Path Sum                                |Done  |07-08-2026|late night         |
+| n018 | Number of 1 Bits                        |Done  |08-08-2026     |dang easy|
 | n019 | Counting Bits                           |      |      |         |
 | n020 | Reverse Bits                            |      |      |         |
 | n021 | Missing Number                          |      |      |         |
